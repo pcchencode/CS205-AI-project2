@@ -82,6 +82,7 @@ if __name__ == '__main__':
 
     print("Testing accuracy on large dataset 6")
     selected_feature_column = [29, 4, 1]
+    # selected_feature_column = [i for i in range(1, 51)]
     print(f"Selected features are {selected_feature_column}")
     selected_X = []
     for i in range(len(large_X)):
@@ -92,4 +93,4 @@ if __name__ == '__main__':
     selected_X = np.array(selected_X)
     normalized_X = z_normalize(selected_X)
     large_accuracy = nn_leave_one_out_cv(selected_X, large_y)
-    print(f"On small dataset 19, the accuracy of using features {selected_feature_column} w/o normalization is: {large_accuracy}")
+    print(f"On large dataset 6, the accuracy of using features {selected_feature_column} w/o normalization is: {large_accuracy}")

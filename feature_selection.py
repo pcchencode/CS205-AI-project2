@@ -49,6 +49,8 @@ def forward_selection(X, y):
         print("")
         if local_best_accuracy < global_best_accuracy:
             print(f"(WARNING, Accuracy has decreased! Continuing search in case of local maximum)")
+            print("Considering improvement threshold....")
+            break
         else:
             global_best_accuracy = local_best_accuracy
             global_best_features = local_best_features
@@ -99,6 +101,8 @@ def backward_elimination(X, y):
         print("")
         if local_best_accuracy < global_best_accuracy:
             print(f"(WARNING, Accuracy has decreased! Continuing search in case of local maximum)")
+            print("Considering improvement threshold....")
+            break
         else:
             global_best_accuracy = local_best_accuracy
             global_best_features = local_best_features
@@ -115,6 +119,8 @@ def backward_elimination(X, y):
 
 if __name__ == '__main__':
     X, y = load_data("CS205_small_Data__44.txt")
+    # X, y = load_data("CS205_large_Data__6.txt")
+
     normalized_X = z_normalize(X)
     # print(type(X), type(normalized_X))
     forward_selection(normalized_X, y)
