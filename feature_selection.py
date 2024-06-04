@@ -72,8 +72,10 @@ def backward_elimination(X, y):
     all_features = [i+1 for i in range(len(X[0]))]
     current_candidates = all_features.copy()
     
+    print("Calculating initial global best accuracy")
     global_best_accuracy = nn_leave_one_out_cv(X, y) # accuracy using all features
     global_best_features = all_features.copy()
+    print(f"Global best accuracy using all 50 features is {global_best_accuracy}")
     
     # print(global_best_accuracy)
 
@@ -118,10 +120,10 @@ def backward_elimination(X, y):
 
 
 if __name__ == '__main__':
-    X, y = load_data("CS205_small_Data__44.txt")
-    # X, y = load_data("CS205_large_Data__6.txt")
+    # X, y = load_data("CS205_small_Data__44.txt")
+    X, y = load_data("CS205_large_Data__21.txt")
 
     normalized_X = z_normalize(X)
     # print(type(X), type(normalized_X))
-    forward_selection(normalized_X, y)
-    # backward_elimination(normalized_X, y)
+    # forward_selection(normalized_X, y)
+    backward_elimination(normalized_X, y)

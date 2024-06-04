@@ -1,0 +1,161 @@
+Beginning search.
+
+    Using feature(s) [1] accuracy is  74.2%
+    Using feature(s) [2] accuracy is  69.6%
+    Using feature(s) [3] accuracy is  68.6%
+    Using feature(s) [4] accuracy is  69.7%
+    Using feature(s) [5] accuracy is  69.4%
+    Using feature(s) [6] accuracy is  68.9%
+    Using feature(s) [7] accuracy is  68.5%
+    Using feature(s) [8] accuracy is  68.4%
+    Using feature(s) [9] accuracy is  68.6%
+    Using feature(s) [10] accuracy is  69.4%
+    Using feature(s) [11] accuracy is  71.0%
+    Using feature(s) [12] accuracy is  70.1%
+    Using feature(s) [13] accuracy is  69.0%
+    Using feature(s) [14] accuracy is  67.9%
+    Using feature(s) [15] accuracy is  68.4%
+    Using feature(s) [16] accuracy is  68.9%
+    Using feature(s) [17] accuracy is  69.2%
+    Using feature(s) [18] accuracy is  70.7%
+    Using feature(s) [19] accuracy is  67.7%
+    Using feature(s) [20] accuracy is  69.0%
+    Using feature(s) [21] accuracy is  69.3%
+    Using feature(s) [22] accuracy is  68.7%
+    Using feature(s) [23] accuracy is  68.7%
+    Using feature(s) [24] accuracy is  69.2%
+    Using feature(s) [25] accuracy is  69.3%
+    Using feature(s) [26] accuracy is  68.5%
+    Using feature(s) [27] accuracy is  68.4%
+    Using feature(s) [28] accuracy is  69.1%
+    Using feature(s) [29] accuracy is  84.6%
+    Using feature(s) [30] accuracy is  68.7%
+    Using feature(s) [31] accuracy is  68.1%
+    Using feature(s) [32] accuracy is  69.0%
+    Using feature(s) [33] accuracy is  69.8%
+    Using feature(s) [34] accuracy is  69.1%
+    Using feature(s) [35] accuracy is  69.0%
+    Using feature(s) [36] accuracy is  68.2%
+    Using feature(s) [37] accuracy is  69.1%
+    Using feature(s) [38] accuracy is  70.0%
+    Using feature(s) [39] accuracy is  68.9%
+    Using feature(s) [40] accuracy is  68.9%
+    Using feature(s) [41] accuracy is  67.6%
+    Using feature(s) [42] accuracy is  68.9%
+    Using feature(s) [43] accuracy is  68.8%
+    Using feature(s) [44] accuracy is  69.6%
+    Using feature(s) [45] accuracy is  68.8%
+    Using feature(s) [46] accuracy is  68.9%
+    Using feature(s) [47] accuracy is  69.6%
+    Using feature(s) [48] accuracy is  69.1%
+    Using feature(s) [49] accuracy is  69.4%
+    Using feature(s) [50] accuracy is  70.4%
+
+Feature set [29] was best, accuracy is  84.6%
+
+    Using feature(s) [29, 1] accuracy is  97.8%
+    Using feature(s) [29, 2] accuracy is  84.5%
+    Using feature(s) [29, 3] accuracy is  82.6%
+    Using feature(s) [29, 4] accuracy is  85.4%
+    Using feature(s) [29, 5] accuracy is  84.7%
+    Using feature(s) [29, 6] accuracy is  83.3%
+    Using feature(s) [29, 7] accuracy is  83.6%
+    Using feature(s) [29, 8] accuracy is  83.8%
+    Using feature(s) [29, 9] accuracy is  84.3%
+    Using feature(s) [29, 10] accuracy is  84.0%
+    Using feature(s) [29, 11] accuracy is  83.3%
+    Using feature(s) [29, 12] accuracy is  84.3%
+    Using feature(s) [29, 13] accuracy is  83.3%
+    Using feature(s) [29, 14] accuracy is  84.4%
+    Using feature(s) [29, 15] accuracy is  84.3%
+    Using feature(s) [29, 16] accuracy is  83.7%
+    Using feature(s) [29, 17] accuracy is  83.9%
+    Using feature(s) [29, 18] accuracy is  83.4%
+    Using feature(s) [29, 19] accuracy is  84.4%
+    Using feature(s) [29, 20] accuracy is  83.5%
+    Using feature(s) [29, 21] accuracy is  84.9%
+    Using feature(s) [29, 22] accuracy is  84.5%
+    Using feature(s) [29, 23] accuracy is  84.4%
+    Using feature(s) [29, 24] accuracy is  83.5%
+    Using feature(s) [29, 25] accuracy is  84.4%
+    Using feature(s) [29, 26] accuracy is  84.1%
+    Using feature(s) [29, 27] accuracy is  84.2%
+    Using feature(s) [29, 28] accuracy is  84.6%
+    Using feature(s) [29, 30] accuracy is  84.4%
+    Using feature(s) [29, 31] accuracy is  84.5%
+    Using feature(s) [29, 32] accuracy is  84.6%
+    Using feature(s) [29, 33] accuracy is  85.0%
+    Using feature(s) [29, 34] accuracy is  84.2%
+    Using feature(s) [29, 35] accuracy is  84.4%
+    Using feature(s) [29, 36] accuracy is  83.8%
+    Using feature(s) [29, 37] accuracy is  83.2%
+    Using feature(s) [29, 38] accuracy is  84.2%
+    Using feature(s) [29, 39] accuracy is  82.8%
+    Using feature(s) [29, 40] accuracy is  84.4%
+    Using feature(s) [29, 41] accuracy is  83.6%
+    Using feature(s) [29, 42] accuracy is  83.7%
+    Using feature(s) [29, 43] accuracy is  84.1%
+    Using feature(s) [29, 44] accuracy is  85.2%
+    Using feature(s) [29, 45] accuracy is  84.2%
+    Using feature(s) [29, 46] accuracy is  84.7%
+    Using feature(s) [29, 47] accuracy is  84.1%
+    Using feature(s) [29, 48] accuracy is  83.7%
+    Using feature(s) [29, 49] accuracy is  83.8%
+    Using feature(s) [29, 50] accuracy is  83.7%
+
+Feature set [29, 1] was best, accuracy is  97.8%
+
+    Using feature(s) [29, 1, 2] accuracy is  95.8%
+    Using feature(s) [29, 1, 3] accuracy is  95.6%
+    Using feature(s) [29, 1, 4] accuracy is  97.0%
+    Using feature(s) [29, 1, 5] accuracy is  95.6%
+    Using feature(s) [29, 1, 6] accuracy is  95.5%
+    Using feature(s) [29, 1, 7] accuracy is  95.4%
+    Using feature(s) [29, 1, 8] accuracy is  95.4%
+    Using feature(s) [29, 1, 9] accuracy is  95.3%
+    Using feature(s) [29, 1, 10] accuracy is  95.6%
+    Using feature(s) [29, 1, 11] accuracy is  95.7%
+    Using feature(s) [29, 1, 12] accuracy is  95.7%
+    Using feature(s) [29, 1, 13] accuracy is  95.7%
+    Using feature(s) [29, 1, 14] accuracy is  95.7%
+    Using feature(s) [29, 1, 15] accuracy is  95.9%
+    Using feature(s) [29, 1, 16] accuracy is  95.5%
+    Using feature(s) [29, 1, 17] accuracy is  95.5%
+    Using feature(s) [29, 1, 18] accuracy is  95.0%
+    Using feature(s) [29, 1, 19] accuracy is  95.5%
+    Using feature(s) [29, 1, 20] accuracy is  95.7%
+    Using feature(s) [29, 1, 21] accuracy is  95.9%
+    Using feature(s) [29, 1, 22] accuracy is  95.4%
+    Using feature(s) [29, 1, 23] accuracy is  95.5%
+    Using feature(s) [29, 1, 24] accuracy is  95.8%
+    Using feature(s) [29, 1, 25] accuracy is  95.8%
+    Using feature(s) [29, 1, 26] accuracy is  95.9%
+    Using feature(s) [29, 1, 27] accuracy is  95.7%
+    Using feature(s) [29, 1, 28] accuracy is  95.6%
+    Using feature(s) [29, 1, 30] accuracy is  95.6%
+    Using feature(s) [29, 1, 31] accuracy is  96.0%
+    Using feature(s) [29, 1, 32] accuracy is  95.8%
+    Using feature(s) [29, 1, 33] accuracy is  95.7%
+    Using feature(s) [29, 1, 34] accuracy is  95.3%
+    Using feature(s) [29, 1, 35] accuracy is  95.3%
+    Using feature(s) [29, 1, 36] accuracy is  95.9%
+    Using feature(s) [29, 1, 37] accuracy is  95.8%
+    Using feature(s) [29, 1, 38] accuracy is  95.5%
+    Using feature(s) [29, 1, 39] accuracy is  95.6%
+    Using feature(s) [29, 1, 40] accuracy is  95.9%
+    Using feature(s) [29, 1, 41] accuracy is  95.4%
+    Using feature(s) [29, 1, 42] accuracy is  95.7%
+    Using feature(s) [29, 1, 43] accuracy is  96.0%
+    Using feature(s) [29, 1, 44] accuracy is  95.8%
+    Using feature(s) [29, 1, 45] accuracy is  95.3%
+    Using feature(s) [29, 1, 46] accuracy is  95.3%
+    Using feature(s) [29, 1, 47] accuracy is  95.1%
+    Using feature(s) [29, 1, 48] accuracy is  95.5%
+    Using feature(s) [29, 1, 49] accuracy is  95.4%
+    Using feature(s) [29, 1, 50] accuracy is  95.4%
+
+(WARNING, Accuracy has decreased! Continuing search in case of local maximum)
+Considering improvement threshold....
+
+Finished search!! The best feature subset is [29, 1], which has accuracy of  97.8%
+forward_selection cost time: 5771.885 s

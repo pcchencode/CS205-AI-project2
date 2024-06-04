@@ -29,8 +29,8 @@ def euclidean_distance(a, b):
 ## y -> label
 def nn_leave_one_out_cv(X, y, normailze = False):
     correct_count = 0
-    for i in tqdm(range(len(X))):
-    # for i in range(len(X)):        
+    # for i in tqdm(range(len(X))):
+    for i in range(len(X)):        
         test_data = X[i]
         train_data = np.concatenate((X[:i], X[i+1:]), axis=0)
         true_y = y[i]
