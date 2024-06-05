@@ -49,8 +49,8 @@ def forward_selection(X, y):
         print("")
         if local_best_accuracy < global_best_accuracy:
             print(f"(WARNING, Accuracy has decreased! Continuing search in case of local maximum)")
-            print("Considering improvement threshold....")
-            break
+            # print("Considering improvement threshold....")
+            # break
         else:
             global_best_accuracy = local_best_accuracy
             global_best_features = local_best_features
@@ -103,8 +103,8 @@ def backward_elimination(X, y):
         print("")
         if local_best_accuracy < global_best_accuracy:
             print(f"(WARNING, Accuracy has decreased! Continuing search in case of local maximum)")
-            print("Considering improvement threshold....")
-            break
+            # print("Considering improvement threshold....")
+            # break
         else:
             global_best_accuracy = local_best_accuracy
             global_best_features = local_best_features
