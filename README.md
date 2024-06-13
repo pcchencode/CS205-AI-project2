@@ -6,6 +6,7 @@ project 2 of implementing Nearest-Neighbor(kNN with k=1) and Feature Selection(F
 * `feature_selection.py`: Main function containing Forward Selection and Backward Elimination.
 * `driver.py`: Driver programm starting the selection algorithms
 * `./log`: Containg the log file running the algorithms
+* `.txt`: The assigned personal dataset
 
 ## How to run?
 ### ① If you are going to test the Nearest Neighbor algorithm on given small dataset 19 and large dataset 6, run:
@@ -239,3 +240,5 @@ Feature set [8, 10, 4, 1, 3, 12, 2, 11, 7, 6, 5, 9] was best, accuracy is  75.2%
 Finished search!! The best feature subset is [8, 10, 4], which has accuracy of  93.4%
 forward_selection cost time: 24.011 s
 ```
+
+🥳 Hope you have fun:)
