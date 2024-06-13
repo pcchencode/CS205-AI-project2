@@ -120,10 +120,10 @@ def backward_elimination(X, y):
 
 
 if __name__ == '__main__':
-    # X, y = load_data("CS205_small_Data__44.txt")
-    X, y = load_data("CS205_large_Data__21.txt")
+    X, y = load_data("CS205_small_Data__44.txt")
+    # X, y = load_data("CS205_large_Data__21.txt")
 
     normalized_X = z_normalize(X)
     # print(type(X), type(normalized_X))
-    # forward_selection(normalized_X, y)
-    backward_elimination(normalized_X, y)
+    forward_selection(normalized_X, y)
+    # backward_elimination(normalized_X, y)
