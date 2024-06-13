@@ -1,5 +1,14 @@
-Calculating initial global best accuracy
-Global best accuracy using all 50 features is 0.678
+Welcome to Po-Chu Feature Selection Algorithm.
+Type in the name of the file to test: CS205_large_Data__21.txt
+
+Type the number of the algorithm you want to run.
+1) Forward Selection
+2) Backward Elimination
+2
+
+This dataset has 50 features (not including the class attribute), with 5000 instances.
+
+Running nearest neighbor with all 50 features, using "leaving-one-out" evaluation, I get an accuracy of 67.8%
 Beginning search.
 
     Using feature(s) [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50] accuracy is  68.6%

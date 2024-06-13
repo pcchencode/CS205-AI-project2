@@ -1,3 +1,14 @@
+Welcome to Po-Chu Feature Selection Algorithm.
+Type in the name of the file to test: CS205_large_Data__21.txt
+
+Type the number of the algorithm you want to run.
+1) Forward Selection
+2) Backward Elimination
+1
+
+This dataset has 50 features (not including the class attribute), with 5000 instances.
+
+Running nearest neighbor with all 50 features, using "leaving-one-out" evaluation, I get an accuracy of 67.8%
 Beginning search.
 
     Using feature(s) [1] accuracy is  70.8%
